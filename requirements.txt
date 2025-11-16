@@ -31,7 +31,7 @@ tensorrt>=10.14.0  # GPU acceleration (2-3x faster inference)
 # Core Utilities
 PyYAML>=6.0
 tqdm>=4.66.0
-python-magic-bin
+python-magic
 ffmpeg-python>=0.2.0
 gdown>=5.0.0  # Model downloads
 lpips>=0.1.4  # Perceptual loss
