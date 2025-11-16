@@ -4,9 +4,6 @@
 # Deep Learning & CV - Compatible versions for Python 3.11
 # Note: PyTorch 2.4.x has typing compatibility issues with Python 3.11
 # Use 2.3.1 for stable Python 3.11 support or 2.5.0+ for latest features
-torch>=2.3.1,!=2.4.0,!=2.4.1  # Skip problematic 2.4.x versions
-torchvision>=0.18.1
-torchaudio>=2.3.1
 onnxruntime-gpu>=1.23.0
 insightface>=0.7.3
 opencv-python>=4.10.0,<4.11.0
@@ -25,7 +22,7 @@ gradio>=5.49.0
 # Enhancement Models - Latest compatible
 realesrgan>=0.3.0
 gfpgan>=1.3.8
-basicsr>=1.4.2
+basicsr==1.4.2
 facexlib>=0.3.0
 
 # Performance & GPU Acceleration
@@ -34,7 +31,7 @@ tensorrt>=10.14.0  # GPU acceleration (2-3x faster inference)
 # Core Utilities
 PyYAML>=6.0
 tqdm>=4.66.0
-python-magic-bin>=0.4.14  # File type detection (Windows)
+python-magic-bin
 ffmpeg-python>=0.2.0
 gdown>=5.0.0  # Model downloads
 lpips>=0.1.4  # Perceptual loss
